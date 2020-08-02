@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap");
 @font-face {
-    font-family: 'MuseoSans';
-    src: url('MuseoSans.otf');
- }
+    font-family: "MuseoSans";
+    src: url("MuseoSans.otf");
+}
 
-body, 
+body,
 html {
     scroll-behavior: smooth;
     width: 100%;
@@ -42,8 +42,8 @@ html {
 .navigation-bar {
     max-width: 100%;
     height: 5rem;
-    background: linear-gradient(to bottom, #000, #0003 70%,#0000);
-    transition: .3s;
+    background: linear-gradient(to bottom, #000, #0003 70%, #0000);
+    transition: 0.3s;
 }
 
 .my-logo {
@@ -65,7 +65,6 @@ html {
 nav.scrolled {
     background: #0a0a0a;
 }
-
 
 a[href^="#"] {
     color: white;
@@ -99,17 +98,16 @@ a:hover {
 
 a {
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 a:visited {
-     color: #fa8f52;
+    color: #fa8f52;
 }
 
 .headline {
-    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
+    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     text-align: center;
 }
@@ -126,12 +124,12 @@ a:visited {
     border-radius: 3em;
 }
 
-#first, #first-text {
-    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
+#first,
+#first-text {
+    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: black;
-        font-size: 1.4vw;
+    font-size: 1.4vw;
     text-align: center;
     margin: 0 4rem 2 4rem;
     padding-top: 0;
@@ -144,11 +142,10 @@ a:visited {
 }
 
 .adoptioncont {
-    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
+    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: black;
-        font-size: 1.4vw;
+    font-size: 1.4vw;
     text-align: justify;
     margin: 2rem 4rem 1rem 4rem;
     padding-top: 0;
@@ -161,21 +158,19 @@ ul {
 li {
     margin: 0em 6em 1em 6em;
     text-align: justify;
-    font-family: 'Karla',-apple-system, BlinkMacSystemFont, 'Segoe UI', 
-        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-        sans-serif;
+    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.2vw;
 }
 
 .kolom {
     margin: 0 auto;
-
 }
 
 .gap {
     padding-bottom: 3em;
 }
-  
+
 .img-catoy {
     width: 10rem;
     float: right;
@@ -205,15 +200,13 @@ li {
     border-radius: 2em;
 }
 
-
 .kolom {
     flex-grow: 2;
 }
 
-
 #box {
     padding: 1em 2em 2em 2em;
-    background-color:white;
+    background-color: white;
 }
 
 .clear {
@@ -222,17 +215,16 @@ li {
 
 h3,
 .importantmsg {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-        sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 900;
     text-align: center;
 }
 
 h1 {
-    font-family: 'MuseoSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-    sans-serif;
+    font-family: "MuseoSans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
     font-weight: 900;
 }
 
@@ -241,11 +233,11 @@ h2 {
     padding-bottom: 0;
     margin-bottom: 0;
     font-size: 3.5vw;
-    font-family: 'MuseoSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    font-family: "MuseoSans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
     font-weight: 900;
-}   
+}
 
 .top {
     padding: 2em 0 0 0;
