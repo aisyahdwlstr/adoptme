@@ -4,6 +4,10 @@
     src: url("assets/MuseoSans.otf");
 }
 
+* {
+    font-size: 1vw;
+}
+
 body,
 html {
     scroll-behavior: smooth;
@@ -40,7 +44,7 @@ html {
 
 .navigation-bar {
     max-width: 100%;
-    height: 5rem;
+    /* height: 5rem; */
     background: linear-gradient(to bottom, #000, #0003 70%, #0000);
     transition: 0.3s;
 }
@@ -48,17 +52,18 @@ html {
 .my-logo {
     display: inline-block;
     vertical-align: top;
-    width: 10rem;
+    width: 12rem;
     height: -15rem;
-    margin-right: 20px;
-    margin-top: 5px;
+    margin: 0 auto;
+    /* margin-right: 20px; */
+    margin-top: 1rem;
 }
 
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
-    margin-right: 20px;
-    line-height: 80px;
+    /* margin-right: 20px; */
+    /* line-height: 80px; */
 }
 
 nav.scrolled {
@@ -70,7 +75,7 @@ a[href^="#"] {
 }
 
 nav {
-    padding: 5px;
+    /* padding: 1rem; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -79,7 +84,7 @@ nav {
 nav li {
     display: inline;
     list-style-type: none;
-    margin: 5rem;
+    margin: 6rem;
 }
 
 nav a {
@@ -118,7 +123,7 @@ a:visited {
 
 .pengantar {
     background-image: url(assets/bg-pengantar.png);
-    padding: 0em 2em 2em 2em;
+    padding: 0rem 2rem 2rem 2rem;
     box-shadow: 0px 4px 10px 3px #0002;
     border-radius: 3em;
 }
@@ -128,7 +133,7 @@ a:visited {
     font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     text-align: center;
     margin: 0 4rem 2 4rem;
     padding-top: 0;
@@ -136,7 +141,7 @@ a:visited {
 
 #first-text {
     color: white;
-    margin: 0 3em 1em 1em;
+    margin: 0 3rem 1rem 1rem;
     text-align: center;
 }
 
@@ -144,22 +149,23 @@ a:visited {
     font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     text-align: justify;
     margin: 2rem 4rem 1rem 4rem;
     padding-top: 0;
 }
 
 ul {
+    padding: 0;
     list-style-image: url(assets/icons8-cat-footprint-12.png);
 }
 
 li {
-    margin: 0em 6em 1em 6em;
+    margin: 0rem 6rem 1rem 6rem;
     text-align: justify;
     font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
 }
 
 .kolom {
@@ -167,36 +173,36 @@ li {
 }
 
 .gap {
-    padding-bottom: 3em;
+    padding-bottom: 3rem;
 }
 
 .img-catoy {
     width: 10rem;
     float: right;
     padding: 0;
-    margin-right: 30em;
+    margin-right: 30rem;
 }
 
 .first-paragraph {
     background-color: #fa8f52;
-    padding: 2em 2em 1em 2em;
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 .isi {
     background-image: url(assets/bg-pengantar.png);
     max-width: 100%;
     box-shadow: 2px 4px 10px 3px #0002;
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 #adoptionloc {
     display: flex;
     background-image: url(assets/bg.catanimation.jpg);
     max-width: 100%;
-    padding: 1em 1em 1em 1em;
-    margin-top: 1em;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 1rem;
     box-shadow: 0px 4px 10px 3px #0002;
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 .kolom {
@@ -204,7 +210,7 @@ li {
 }
 
 #box {
-    padding: 1em 2em 2em 2em;
+    padding: 1rem 2rem 2rem 2rem;
     background-color: white;
 }
 
@@ -224,23 +230,23 @@ h1 {
 }
 
 h2 {
-    padding-top: 0.9em;
+    padding-top: 0.9rem;
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size: 3.5vw;
+    font-size: 3rem;
     font-family: "MuseoSans", -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
     font-weight: 900;
-    margin-left: 2em;
+    /* margin-left: 2rem; */
 }
 
 .top {
-    padding: 2em 0 0 0;
+    padding: 2rem 0 0 0;
 }
 
 .bottom {
-    padding: 0 0 2em 0;
+    padding: 0 0 2rem 0;
 }
 
 #bio {
@@ -268,6 +274,11 @@ aside {
     float: right;
     width: 20%;
     margin: 1rem;
+}
+
+#h2_aboutMe,
+#how {
+    margin-left: 2rem;
 }
 
 #P_aboutMe {
@@ -324,12 +335,62 @@ aside tr {
     color: black;
     text-align: center;
     width: 100%;
-    padding: 1em 0em 1em 0em;
+    padding: 1rem 0rem 1rem 0rem;
     margin: 0;
 }
 
 @media only screen and (max-device-width: 1366px) {
     #background.img {
         background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        font-size: 1.4vw;
+    }
+
+    aside {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    * {
+        font-size: 1.6vw;
+    }
+
+    nav li {
+        margin: 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    * {
+        font-size: 2vw;
+    }
+
+    nav li {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 2.4vw;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    #h2_aboutMe {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    nav li {
+        margin: 1.5rem;
     }
 }
