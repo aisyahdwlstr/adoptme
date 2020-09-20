@@ -92,16 +92,20 @@ nav a:hover {
 }
 
 a:hover {
-    color: orange;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+#email {
+    color: white
 }
 
 a:visited {
-    color: #fa8f52;
+    color: white;
 }
 
 strong {
